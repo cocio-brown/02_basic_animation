@@ -1,0 +1,32 @@
+div {
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    margin: 1em;
+}
+
+.animate {
+    animation: square 3s infinite;
+}
+
+    @keyframes square {
+        25% {
+
+            background-color: red;
+            transform: translate(80vw);
+        }
+
+        50% {
+
+            background-color: orange;
+            transform: translate(80vw, 80vh);
+        }
+
+        75% {
+
+            background-color: green;
+            transform: translate(0, 80vh);
+        }
+
+
+        }

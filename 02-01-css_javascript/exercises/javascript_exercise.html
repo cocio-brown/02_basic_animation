@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet_javascript_exercise.css">
+    <title>Javascript Exercise</title>
+</head>
+
+<body>
+    <div id="box1"></div>
+    <script>
+        const mybox = document.querySelector("#box1");
+        mybox.addEventListener("click", runAnimation)
+        Function runAnimation() {
+            console.log(this)
+            mybox.classList.toggle("animate"):
+        }
+    </script>
+</body>
+
+</html>
